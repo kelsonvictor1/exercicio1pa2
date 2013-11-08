@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="height:http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/pushme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="133dp"
+        android:text="@string/pushme" />
+
+        <TextView
+            android:id="@+id/textContador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/clickme"
+            android:layout_below="@+id/clickme"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textContador2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pushme"
+            android:layout_below="@+id/pushme"
+            android:layout_marginTop="18dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/clickme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pushme"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="44dp"
+            android:text="@string/clickme" />
+
+</RelativeLayout>
